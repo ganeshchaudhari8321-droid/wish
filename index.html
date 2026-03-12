@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Birthday Surprise</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>🎉 Happy Birthday 🎉</h1>
+
+<h2>For Someone Special ❤️</h2>
+
+<img id="slider" src="IMG_20260308_185806_220.jpg" class="photo">
+
+<p class="msg">
+May your day be full of happiness and love 💖
+</p>
+
+<button onclick="openPopup()">Click for Surprise</button>
+
+<br><br>
+
+<video width="350" controls>
+<source src="video.mp4" type="video/mp4">
+</video>
+
+<div class="hearts"></div>
+
+<!-- Popup -->
+
+<div id="popup" class="popup">
+
+<div class="popup-content">
+
+<h2 id="typeMsg"></h2>
+
+<button onclick="closePopup()">Close</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</body>
+
+</html>
