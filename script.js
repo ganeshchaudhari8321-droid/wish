@@ -1,12 +1,16 @@
 // photo slider
 
 let photos=[
-"photo1.jpg",
-"photo2.jpg",
-"photo3.jpg"
+"images/photo1.jpg",
+"images/photo2.jpg",
+"images/photo3.jpg",
+"images/photo4.jpg",
+"images/photo5.jpg",
+"images/photo6.jpg",
+"images/photo7.jpg",
+"images/photo8.jpg",
+"images/photo9.jpg"
 ]
-
-
 let i=0
 
 function changePhoto(){
@@ -15,7 +19,7 @@ i++
 
 if(i>=photos.length){
 
-i=0
+let i=0
 
 }
 
@@ -47,7 +51,6 @@ heart.remove()
 },8000)
 
 }
-
 setInterval(createHeart,400)
 
 
@@ -78,7 +81,7 @@ document.getElementById("popup").style.display="none"
 
 // typing message
 
-let text="🎂 Happy Birthday ❤️  You are the most special person in my life.  Your smile makes my world brighter every day.  I wish all your dreams come true.  Stay happy always."
+let text="🎂 Happy Birthday ❤️  You are the most special person in my life.  Your smile makes my world brighter every day.  I wish all your dreams come true.  Stay happy always. 🥰Love you so much bala❤️ Happy Birthday Bayko❤️ Even if I’m not there on your birthday, you’re always in my heart.” ❤️ "
 let index=0
 
 function startTyping(){
