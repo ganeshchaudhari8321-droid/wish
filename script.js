@@ -81,7 +81,7 @@ document.getElementById("popup").style.display="none"
 
 // typing message
 
-let text="🎂 Happy Birthday ❤️  You are the most special person in my life.  Your smile makes my world brighter every day.  I wish all your dreams come true.  Stay happy always. 🥰Love you so much bala❤️ Happy Birthday Bayko❤️ Even if I’m not there on your birthday, you’re always in my heart.” ❤️ "
+let text="🎂 Happy Birthday ❤️  You are the most special person in my life.  Your smile makes my world brighter every day.  I wish all your dreams come true.  Stay happy always. 🥰❤️ Happy Birthday mauu❤️ Even if I’m not there on your birthday, you’re always in my heart.” ❤️ "
 let index=0
 
 function startTyping(){
